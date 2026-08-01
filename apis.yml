@@ -1,7 +1,27 @@
 aid: relayapp
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/relayapp.png
 name: Relay.app
-description: Relay.app is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Relay.app was a workflow automation platform (an AI-assisted alternative to
+  Zapier and Make) that let teams build and run automated, multi-step workflows
+  connecting external SaaS applications, with human-in-the-loop approval steps
+  and AI actions embedded in the automation flow. It was surfaced as a portfolio
+  company of a16z and added to the API Evangelist network. As of 2026 the product
+  has been discontinued: free users lost access on 2026-08-15 and paying customers
+  on 2026-09-14, with the site now serving a shutdown notice and a data-export
+  path only. No public developer API, OpenAPI specification, SDKs, or webhook
+  reference are published for the platform.
 url: https://raw.githubusercontent.com/api-evangelist/relayapp/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +29,38 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: shutdown
+x-status-detail: >-
+  Product discontinued in 2026; free access ended 2026-08-15, paid access ended
+  2026-09-14. No public API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Workflow Automation
+- Automation
+- No-Code
+- iPaaS
+- AI Agents
+- Discontinued
+common:
+- type: DomainSecurity
+  url: security/relayapp-domain-security.yml
+- type: Website
+  url: https://www.relay.app/
+- type: Documentation
+  url: https://docs.relay.app/
+- type: Login
+  url: https://run.relay.app/login
+- type: Support
+  url: mailto:support@relay.app
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
