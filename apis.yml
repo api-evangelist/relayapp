@@ -33,7 +33,7 @@ x-status: shutdown
 x-status-detail: >-
   Product discontinued in 2026; free access ended 2026-08-15, paid access ended
   2026-09-14. No public API surface.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 tags:
