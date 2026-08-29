@@ -34,6 +34,8 @@ description: >-
   path only. No public developer API, OpenAPI specification, SDKs, or webhook
   reference are published for the platform.
 url: https://raw.githubusercontent.com/api-evangelist/relayapp/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
